@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jober.avinashchintareddy.weatherpredictor.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_region"
+        android:textSize="@dimen/heading_values" />
+
+    <TextView
+        android:id="@+id/tx_weathermain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_main"
+        android:textSize="@dimen/text_sizes" />
+
+    <TextView
+        android:id="@+id/tx_weather_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_sizes"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_temp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_weather_desc"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_descr"
+        android:textSize="@dimen/text_sizes"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_weather_temp_max"
+            android:textSize="@dimen/text_sizes"
+            android:text="@string/weather_temp_max"
+            android:layout_weight="1"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/tx_weather_temp_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weather_temp_min"
+            android:textSize="@dimen/text_sizes"
+            android:layout_weight="1"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="@dimen/layout_margins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lst_view">
+
+    </ListView>
+
+
+
+</LinearLayout>

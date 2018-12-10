@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherPredictor</string>
+    <string name="weather_region">Region Name</string>
+    <string name="weather_main">Weather Now</string>
+    <string name="weather_descr">Description</string>
+    <string name="weather_temp">Weather Temperature</string>
+    <string name="weather_temp_max">Temperature Max</string>
+    <string name="weather_temp_min">Temperature Min</string>
+    <string name="forecast_date_time">DateTime</string>
+    <string name="forecast_description">Forecast</string>
+    <string name="forecast_main">Main</string>
+    <string name="forecast_temp">Temperature</string>
+</resources>
+
